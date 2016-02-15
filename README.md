@@ -8,7 +8,7 @@ This is a python script that will take a series of pictures using a GoPro Hero4.
 The current implementation of this script is to be run via CRON. The interval you set to run this via CRON is how often a picture will be taken. To run this every minute, enter this command in CRON.
 
 
-	* * * * * python3 main.py >/dev/null 2>&1
+	* * * * * /usr/local/bin/python3 ~/main.py >/dev/null 2>&1
 
 If you want to run this at a different interval, you can create your CRON command [here](http://crontab-generator.org/).
 
